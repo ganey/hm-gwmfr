@@ -13,6 +13,8 @@ erlang-dev=1:21.2.6+dfsg-1 \
 git=1:2.20.1-2+deb10u3 \
 ca-certificates=20200601~deb10u2 \
 build-essential=12.6 \
+erlang-ssl=1:21.2.6+dfsg-1 \
+openssl=1.1.1d-0+deb10u5 \
 --no-install-recommends && \
 apt-get autoremove -y &&\
 apt-get clean && \
