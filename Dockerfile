@@ -27,7 +27,7 @@ WORKDIR /opt/gateway_mfr/gateway_mfr
 RUN DEBUG=1 make release
 
 
-FROM arm32v5/debian:buster-slim AS buildstep
+FROM arm32v5/debian:buster-slim
 
 # hadolint ignore=DL3018
 RUN \
